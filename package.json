@@ -1,0 +1,22 @@
+{
+  "name": "base-typescript-code",
+  "version": "0.0.1",
+  "description": "Base TypeScript repo for GDP Labs project developed using TypeScript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDP-ADMIN/base-typescript-code.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "GDP Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GDP-ADMIN/base-typescript-code/issues"
+  },
+  "homepage": "https://github.com/GDP-ADMIN/base-typescript-code#readme"
+}
