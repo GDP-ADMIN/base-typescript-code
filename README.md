@@ -40,6 +40,12 @@ Please apply the concept in this repo appropriately and **adjust as necessary**.
         "Last Modified: <<dateformat('MMMM Do YYYY')>>",
         "Modified By: <<modifyauthor>> (<<modifyauthoremail>>)",
         "-----",
+        "Reviewed by:",
+        "  -",
+        "---",
+        "References:",
+        "  -",
+        "---",
         "Copyright (c) <<year>> GDP LABS. All rights reserved."
       ]
     }
@@ -54,7 +60,12 @@ Please apply the concept in this repo appropriately and **adjust as necessary**.
 ## Running Locally
 
 1. Run `npm install`.
-2. Run `npm start`.
+
+This project is meant to be a sample. It's not runnable. When you create a TypeScript project, you'll most likely use a more specific tech-stack/framework (like the ones described in the beginning of this README) and each of them will provide a way to run the project.
+
+## Test
+
+1. Run `npm test`.
 
 ## Deployment
 
