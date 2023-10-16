@@ -7,10 +7,10 @@
  * Created at: October 16th 2023
  * -----
  * Last Modified: October 16th 2023
- * Modified By: Timotius Nugroho Chandra (timotius.n.chandra@gdplabs.id)
+ * Modified By: Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
  * -----
  * Reviewed by:
- *   -
+ *   Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
  * ---
  * References:
  *   [1] https://vitest.dev/config/#alias
