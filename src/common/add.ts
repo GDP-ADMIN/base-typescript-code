@@ -1,16 +1,16 @@
 /*
- * index.ts
+ * add.ts
  * DEFAULT DESCRIPTION. EDIT OR DELETE THIS.
  *
  * Authors:
- *   Timotius Nugroho Chandra (timotius.n.chandra@gdplabs.id)
- * Created at: October 15th 2023
+ *   Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
+ * Created at: October 16th 2023
  * -----
  * Last Modified: October 16th 2023
  * Modified By: Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
  * -----
  * Reviewed by:
- *   Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
+ *   -
  * ---
  * References:
  *   -
@@ -18,4 +18,10 @@
  * Copyright (c) 2023 GDP LABS. All rights reserved.
  */
 
-console.log("Hello World!");
+// A simple function to add two numbers
+function add(a: number, b: number): number {
+  return a + b;
+}
+
+// Export the add function to make it available for testing
+export { add };

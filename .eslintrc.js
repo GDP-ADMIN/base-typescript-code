@@ -7,14 +7,15 @@
  * See [3] for details.
  *
  * Authors:
+ *   Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
  *   Timotius Nugroho Chandra (timotius.n.chandra@gdplabs.id)
  * Created at: October 15th 2023
  * -----
- * Last Modified: October 15th 2023
- * Modified By: Timotius Nugroho Chandra (timotius.n.chandra@gdplabs.id)
+ * Last Modified: October 16th 2023
+ * Modified By: Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
  * -----
  * Reviewed by:
- *   -
+ *   Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
  * ---
  * References:
  *   [1] https://eslint.org/docs/latest/use/configure/migration-guide#predefined-and-shareable-configs
@@ -25,7 +26,8 @@
  */
 
 module.exports = {
-  extends: ["eslint:recommended", "prettier"],
+  parser: "@typescript-eslint/parser",
+  extends: ["eslint:recommended", "prettier", "plugin:jest/recommended"],
   env: {
     node: true,
     browser: true,
