@@ -2,9 +2,14 @@
   "name": "base-typescript-code",
   "version": "0.0.1",
   "description": "Base TypeScript repo for GDP Labs project developed using TypeScript",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "npm run test"
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "prettier": "prettier src --check",
+    "prettier-fix": "prettier src --write",
+    "lint": "./node_modules/.bin/eslint src --ext .js,.ts,.tsx",
+    "lint-fix": "./node_modules/.bin/eslint --fix src --ext .js,.ts,.tsx"
   },
   "repository": {
     "type": "git",
@@ -18,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/GDP-ADMIN/base-typescript-code/issues"
   },
-  "homepage": "https://github.com/GDP-ADMIN/base-typescript-code#readme"
+  "homepage": "https://github.com/GDP-ADMIN/base-typescript-code#readme",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^0.34.6",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3",
+    "vitest": "^0.34.6"
+  }
 }
