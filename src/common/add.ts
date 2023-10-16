@@ -1,16 +1,16 @@
 /*
  * add.ts
- * DEFAULT DESCRIPTION. EDIT OR DELETE THIS.
+ * Sample ts file with a simple function
  *
  * Authors:
  *   Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
  * Created at: October 16th 2023
  * -----
  * Last Modified: October 16th 2023
- * Modified By: Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
+ * Modified By: Timotius Nugroho Chandra (timotius.n.chandra@gdplabs.id)
  * -----
  * Reviewed by:
- *   -
+ *   Timotius Nugroho Chandra (timotius.n.chandra@gdplabs.id)
  * ---
  * References:
  *   -

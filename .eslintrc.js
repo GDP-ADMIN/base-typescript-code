@@ -12,7 +12,7 @@
  * Created at: October 15th 2023
  * -----
  * Last Modified: October 16th 2023
- * Modified By: Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
+ * Modified By: Timotius Nugroho Chandra (timotius.n.chandra@gdplabs.id)
  * -----
  * Reviewed by:
  *   Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
@@ -26,8 +26,7 @@
  */
 
 module.exports = {
-  parser: "@typescript-eslint/parser",
-  extends: ["eslint:recommended", "prettier", "plugin:jest/recommended"],
+  extends: ["eslint:recommended", "prettier"],
   env: {
     node: true,
     browser: true,

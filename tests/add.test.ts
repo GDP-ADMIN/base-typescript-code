@@ -1,24 +1,25 @@
 /*
  * add.test.ts
- * DEFAULT DESCRIPTION. EDIT OR DELETE THIS.
+ * Sample test file using Vitest framework
  *
  * Authors:
  *   Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
  * Created at: October 16th 2023
  * -----
  * Last Modified: October 16th 2023
- * Modified By: Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
+ * Modified By: Timotius Nugroho Chandra (timotius.n.chandra@gdplabs.id)
  * -----
  * Reviewed by:
- *   -
+ *   - Timotius Nugroho Chandra (timotius.n.chandra@gdplabs.id)
  * ---
  * References:
- *   -
+ *   [1] https://vitest.dev/guide/
  * ---
  * Copyright (c) 2023 GDP LABS. All rights reserved.
  */
 
-import { add } from "@common/add";
+import { describe, it, expect } from "vitest";
+import { add } from "@/common/add";
 
 describe("add function", () => {
   it("should add two numbers correctly", () => {
