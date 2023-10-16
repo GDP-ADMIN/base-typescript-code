@@ -60,7 +60,6 @@
     // Or try to compile it via CLI.
     "moduleResolution": "node",
     "target": "es2018", // Specify the target code version of TS compiler output
-    "jsx": "react", // what kind of JSX to be supported in .tsx files
     //strict: true === noImplicitAny, noImplicitThis, alwaysStrict, strictBindCallApply, strictNullChecks, strictFunctionTypes, strictPropertyInitialization.
     "strict": true,
     "noUnusedLocals": false, //To warn us with unused imports.
