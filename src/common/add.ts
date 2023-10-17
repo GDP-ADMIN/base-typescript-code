@@ -6,7 +6,7 @@
  *   Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
  * Created at: October 16th 2023
  * -----
- * Last Modified: October 16th 2023
+ * Last Modified: October 17th 2023
  * Modified By: Timotius Nugroho Chandra (timotius.n.chandra@gdplabs.id)
  * -----
  * Reviewed by:
@@ -18,7 +18,12 @@
  * Copyright (c) 2023 GDP LABS. All rights reserved.
  */
 
-// A simple function to add two numbers
+/**
+ * A simple function to add two numbers
+ * @param {string} a - The first number.
+ * @param {string} b - The second number.
+ * @returns {number} The sum of the two numbers.
+ */
 function add(a: number, b: number): number {
   return a + b;
 }
