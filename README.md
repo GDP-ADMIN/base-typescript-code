@@ -18,7 +18,7 @@ Please apply the concept in this repo appropriately and **adjust as necessary**.
 
 1. Install [NVM](https://github.com/nvm-sh/nvm) if you haven't already. NVM will allow you to switch Node version easily.
 2. There's a list of recommended extension in `.vscode/extensions.json`. Install it by following [this documentation](https://code.visualstudio.com/docs/editor/extension-marketplace#_recommended-extensions).
-   1. Open [VSCode user settings](https://code.visualstudio.com/docs/getstarted/settings) and add the following settings for [psioniq.psi-header extension](https://marketplace.visualstudio.com/items?itemName=psioniq.psi-header). This will allow you to insert header comment by executing command `Header Insert` (Cmd + P then type `> Header Insert`):
+   1. Open [VSCode user settings](https://code.visualstudio.com/docs/getstarted/settings) and add the following settings for [psioniq.psi-header extension](https://marketplace.visualstudio.com/items?itemName=psioniq.psi-header). This will allow you to insert header comment by executing command `Header Insert` (Cmd+Shift+P then type `> Header Insert`):
 
 ```
 "psi-header.variables": [
