@@ -147,3 +147,8 @@ Configuration file for `vitest`, a Unit Test library.
 2. [Python Style Guide](https://docs.google.com/document/d/1uRggCrHnVfDPBnG641FyQBwUwLoFw0kTzNqRm92vUwM).
 
 If you cannot access any of the references, please contact your manager or team lead.
+
+## Automatic Documentation Generation
+
+For generating documentation using typedoc, you can run the following scripts:
+`npm run generate-docs`
