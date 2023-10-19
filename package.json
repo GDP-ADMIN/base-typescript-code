@@ -9,7 +9,8 @@
     "prettier": "prettier src --check",
     "prettier-fix": "prettier src --write",
     "lint": "./node_modules/.bin/eslint src --ext .js,.ts,.tsx",
-    "lint-fix": "./node_modules/.bin/eslint --fix src --ext .js,.ts,.tsx"
+    "lint-fix": "./node_modules/.bin/eslint --fix src --ext .js,.ts,.tsx",
+    "generate-docs": "npx typedoc --entryPointStrategy expand ./src"
   },
   "repository": {
     "type": "git",
