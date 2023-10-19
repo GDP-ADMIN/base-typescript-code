@@ -9,7 +9,7 @@
  * Last Modified: October 19th 2023
  * Modified By: I Putu Yudi Haryasa (i.putu.yudi.haryasa@gdplabs.id)
  * -----
- * Reviewed by:
+ * Reviewers:
  *   Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
  * ---
  * References:
