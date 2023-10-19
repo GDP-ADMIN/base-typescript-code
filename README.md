@@ -20,8 +20,8 @@ Please apply the concept in this repo appropriately and **adjust as necessary**.
 2. There's a list of recommended extension in `.vscode/extensions.json`. Install it by following [this documentation](https://code.visualstudio.com/docs/editor/extension-marketplace#_recommended-extensions).
    1. Open [VSCode user settings](https://code.visualstudio.com/docs/getstarted/settings) and add the following settings for [psioniq.psi-header extension](https://marketplace.visualstudio.com/items?itemName=psioniq.psi-header). This will allow you to insert header comment by executing command `Header Insert` (Cmd+Shift+P then type `> Header Insert`):
 
-```
-"psi-header.variables": [
+```json
+  "psi-header.variables": [
     ["author", "Your name"],
     ["authoremail", "Your email"],
     ["modifyauthor", "Your name"],
@@ -34,17 +34,18 @@ Please apply the concept in this repo appropriately and **adjust as necessary**.
         "<<filename>>",
         "DEFAULT DESCRIPTION. EDIT OR DELETE THIS.",
         "",
-        "Author: <<author>> (<<authoremail>>)",
+        "Authors:",
+        "  <<author>> (<<authoremail>>)",
         "Created at: <<filecreated('MMMM Do YYYY')>>",
         "-----",
         "Last Modified: <<dateformat('MMMM Do YYYY')>>",
         "Modified By: <<modifyauthor>> (<<modifyauthoremail>>)",
         "-----",
-        "Reviewed by:",
-        "  -",
+        "Reviewers:",
+        "  ",
         "---",
         "References:",
-        "  -",
+        "  NONE",
         "---",
         "Copyright (c) <<year>> GDP LABS. All rights reserved."
       ]

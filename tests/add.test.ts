@@ -6,11 +6,11 @@
  *   Sahat Nicholas Simangunsong (sahat.n.simangunsong@gdplabs.id)
  * Created at: October 16th 2023
  * -----
- * Last Modified: October 16th 2023
- * Modified By: Timotius Nugroho Chandra (timotius.n.chandra@gdplabs.id)
+ * Last Modified: October 19th 2023
+ * Modified By: I Putu Yudi Haryasa (i.putu.yudi.haryasa@gdplabs.id)
  * -----
- * Reviewed by:
- *   - Timotius Nugroho Chandra (timotius.n.chandra@gdplabs.id)
+ * Reviewers:
+ *   Timotius Nugroho Chandra (timotius.n.chandra@gdplabs.id)
  * ---
  * References:
  *   [1] https://vitest.dev/guide/
